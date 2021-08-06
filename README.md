@@ -21,15 +21,19 @@ Install a Virtual Machine with Linux as guest OS. Install a gcc complier to the 
 1. Open two terminals on Linux
 2. On terminal 1 compile the server program using following command:
 
-`gcc server.c -o server`
+  `gcc server.c -o server`
+
 3. On terminal 2 compile the client program:
 
-`	gcc client.c -o client`
+  `	gcc client.c -o client`
+  
 4. Make sure that sample.txt is in the same folder as the client.
 5. Run the server program on terminal 1:
 
-`	./server`
+  `	./server`
+  
 6. Run the client program on terminal 2:
 
-`	./client`
+  `	./client`
+  
 7. The packets will be sent from client to server.
